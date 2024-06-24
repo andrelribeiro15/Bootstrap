@@ -1,0 +1,159 @@
+body {
+    padding-top: 100px; /* Espaço para o header fixo */
+  
+}
+header {
+    background-color: #eb1313;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Para ficar acima do conteúdo */
+}
+header img{
+    float: left;
+    height: 100px;
+    width: 100px;
+    margin: 0px 20px;
+    margin-top: 20px;
+    border: 5px solid black;
+}
+
+
+
+nav{
+    clear: both;
+    width: 80%;
+    margin: 0px auto;
+    height: 55px;
+
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+nav .opcao{
+    float: left;
+    width: 31.3%;
+    background-color:red;
+    padding: 10px 0 ;
+    margin: 0 1%;
+    font-size: 20px;
+
+}
+
+nav .opcao:hover{
+    background-color:black;
+
+}
+.opcao {
+    display: inline-block;
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+#meio {
+    text-align: center;
+    margin-top: 100px; /* Espaçamento para o conteúdo */
+}
+section p{
+    clear: both;
+    text-align:justify;
+    margin: 20px 80px;
+   
+    padding: 10px;
+}
+
+
+
+section {
+    margin-top: 100px; /* Espaçamento para o conteúdo */
+    text-align: center;
+}
+form {
+    width: 80%;
+    margin: auto;
+    text-align: left;
+}
+fieldset {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+input[type="text"], input[type="email"], textarea, select {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+textarea {
+    resize: vertical;
+}
+button[type="reset"], button[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+button[type="reset"]:hover, button[type="submit"]:hover {
+    background-color: #555;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+    position:unset;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+
+
+
+.tabela {
+    margin-top: 100px; /* Espaçamento para o conteúdo */
+    text-align: center;
+}
+.tabelaEquipes {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    text-align: left;
+}
+.tituloTabela {
+    border: 5px solid black;
+    background-color: rgb(56, 56, 56);
+    color: rgb(253, 10, 10);
+    padding: 10px;
+}
+.tabelaEquipes th, .tabelaEquipes td {
+    color: rgb(255, 250, 250);
+    padding: 8px;
+    border: 5px solid black;
+    background-color: red;
+}
+.tabelaEquipes th {
+    color: rgb(253, 10, 10);
+    border: 5px solid black;
+    background-color: #464343;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Formula 1</title>
+    
+    <link rel="stylesheet" href="stilo.css">
+    <!-- JavaScript para validação -->
+    <script src="javas.js"></script>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" href="animate.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <style>
+        
+    </style>
+</head>
+<body>
+
+<header>
+    
+    <h1>Formula 1 Fã Clube</h1>
+</header>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">Inicio</a>
+        <a class="navbar-brand" href="conteudo.html">Equipes</a>
+        <a class="navbar-brand" href="inscrever.html">Cadastro</a>
+    </div>
+</nav>
+
+<section class="container">
+    <h2 class="mt-5">Inscrição para Fã Clube</h2>
+    <h3>Preencha este formulário para inscrição no Fã Clube</h3>
+    <form name="formInscrever" method="post" action="#" onsubmit="return validaInscricao()">
+        <fieldset class="inscrever1">
+            <legend>Dados Pessoais</legend>
+            <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" class="form-control" id="nome" name="txtnome">
+            </div>
+            <div class="form-group">
+                <label for="fone">Telefone:</label>
+                <input type="text" class="form-control" id="fone" name="txtfone">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" name="txtemail" placeholder="exemplo@gmail.com">
+            </div>
+        </fieldset>
+        <fieldset class="inscrever1">
+            <legend>Equipe Favorita</legend>
+            <div class="form-group">
+                <label for="favorito">Selecione sua equipe favorita:</label>
+                <select class="form-control" id="favorito" name="selfavorito">
+                    <option value="">Escolha</option>
+                    <option value="Ferrari">Scuderia Ferrari</option>
+                    <option value="Mercades">Mercedes AMG</option>
+                    <option value="RedBull">Oracle Red Bull</option>
+                    <option value="RB">Racing Bulls</option>
+                    <option value="Mclaren">McLaren</option>
+                    <option value="Hass">MoneyGram Hass</option>
+                    <option value="Aston">Aston Martin</option>
+                    <option value="Willians">Williams Racing</option>
+                    <option value="Sauber">Kick Sauber</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="texto">Por que você gosta da Fórmula 1?</label>
+                <textarea class="form-control" id="tx" name="texto" placeholder="Informe pelo menos 15 caracteres"></textarea>
+            </div>
+            <div class="form-group">
+                <button type="reset" class="btn btn-secondary">Limpar</button>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+        </fieldset>
+    </form>
+</section>
+
+<footer class="bg-dark text-white text-center py-3 mt-5">
+    F1 &copy; 
+</footer>
+
+<!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    -->
+
+</body>
+</html>
